@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+}
+
+.results ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.stats-column, .languages-column {
+  flex: 1;
+  padding: 20px;
+}
+
+.stats-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.languages-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.stats-block {
+  background-color: #f9f9f9; 
+  border: 1px solid #e0e0e0; 
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 150px; 
+}
+
+.stats-title {
+  font-size: 16px;
+  color: #666; 
+  margin-bottom: 10px;
+}
+
+.stats-value {
+  font-size: 24px;
+  color: #333; 
+  font-weight: bold;
+}
+
+.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.sort-options {
+  margin-bottom: 20px;
+}
+
+.repository-list-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.repository-list {
+  flex: 2;
+  padding: 20px;
+}
+
+.side-panel {
+  flex: 1;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 10px 4px rgba(5, 5, 5, 5);
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.no-bullets li {
+  margin: 5px 0;
+}
+
+.stats-block {
+  background-color: #f9f9f9; /* Light gray background */
+  border: 1px solid #e0e0e0; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px; /* Space between blocks */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.stats-title {
+  font-size: 16px;
+  color: #666; /* Gray color for title */
+  margin-bottom: 10px;
+}
+
+.stats-value {
+  font-size: 24px;
+  color: #333; /* Dark color for value */
+  font-weight: bold;
+}
+
+.loading {
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+  margin: 20px 0;
+}
