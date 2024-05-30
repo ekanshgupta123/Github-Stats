@@ -81,8 +81,8 @@
   margin-left: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Center items vertically */
-  align-items: center; /* Center items horizontally */
+  justify-content: center;
+  align-items: center;
 }
 
 .no-bullets {
@@ -96,24 +96,24 @@
 }
 
 .stats-block {
-  background-color: #f9f9f9; /* Light gray background */
-  border: 1px solid #e0e0e0; /* Light gray border */
-  border-radius: 8px; /* Rounded corners */
+  background-color: #f9f9f9; 
+  border: 1px solid #e0e0e0; 
+  border-radius: 8px; 
   padding: 20px;
   text-align: center;
-  margin-bottom: 20px; /* Space between blocks */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin-bottom: 20px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .stats-title {
   font-size: 16px;
-  color: #666; /* Gray color for title */
+  color: #666; 
   margin-bottom: 10px;
 }
 
 .stats-value {
   font-size: 24px;
-  color: #333; /* Dark color for value */
+  color: #333;
   font-weight: bold;
 }
 

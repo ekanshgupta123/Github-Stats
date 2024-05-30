@@ -5,11 +5,10 @@ from dotenv import load_dotenv
 import os
 from collections import Counter
 
-# Load environment variables from .env file
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for all routes
+CORS(app) 
 
 GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
 
